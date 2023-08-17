@@ -1,0 +1,91 @@
+.section-decoration{
+    margin-bottom: 400px;
+}
+
+.section-decoration .container{
+    padding-top: 130px;
+    display: flex;
+}
+
+.section-decoration .bg-grey{
+    background-color: rgba(255, 255, 255, 0.101);
+    padding-left: 320px;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 50%;
+    position: absolute;
+    height: 733px;
+}
+
+.section-decoration .title{
+    font-family: 'Poppins';
+    padding-top: 80px;
+    width: 514px;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170px; /* 100% */
+    letter-spacing: -2px;
+    
+}
+
+.section-decoration .description{
+    font-family: Poppins;
+    font-size: 25px;
+    width: 558px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 200% */
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.section-decoration .main-button{
+    margin-left: 100px;
+}
+
+.section-decoration .card-trainer .action{
+        font-family: 'Poppins';
+        text-decoration: none;
+        padding-right: 16px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 1.5px;
+}
+
+.section-decoration .wrapper-trainer{
+    display: grid;
+    grid-template-columns: 377px 377px 500px;
+}
+
+.section-decoration .card-trainer{
+    width: 377px;
+    height: 377px;
+    display: inline-block;
+    font-family: 'Poppins';
+}
+.section-decoration .card-trainer img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.section-decoration .card-trainer.-big {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: 123px;
+}
+
+
+.section-decoration .card-trainer.-bottom{
+    position: relative;
+    top: 377px;
+}
+
+
+

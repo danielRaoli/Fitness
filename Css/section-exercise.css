@@ -1,0 +1,66 @@
+
+
+.section-exercise{
+    font-family: 'Poppins';
+    margin-bottom: 100px;
+}
+
+.section-exercise .exercise-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    display: inline;
+    font-size: 35px;
+}
+
+.action{
+    display: inline-flex;
+    text-decoration: none;
+    padding-right: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    text-align: end;
+}
+
+.wrapper-exercise{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 373px 373px 373px;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.wrapper-exercise .exercise{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-exercise .exercise .action{
+    margin-top: 15px;
+}
+.section-exercise .wrapper-exercise .card-exercise{
+    width: 373px;
+    height: 250px;
+    display: flex;
+    align-items: end;
+}
+
+.card-exercise img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.section-exercise .card-exercise .card-title{
+    font-size: 50px;
+    position: absolute;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.423);
+    width: inherit;
+}
+

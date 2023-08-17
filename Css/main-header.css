@@ -1,0 +1,27 @@
+.main-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.main-header .logo{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.menu{
+    justify-content: space-around;
+}
+
+.menu .menu-action{
+    text-decoration: none;
+    padding-right: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+}

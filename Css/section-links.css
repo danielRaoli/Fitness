@@ -1,0 +1,22 @@
+.section-links{
+    font-family: 'Poppins';
+}
+
+.section-links .card-link{
+    display: flex;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.101);
+    align-items: flex-start;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.section-links .card-link .box{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-links .card-link .number{
+    color: rgba(255, 255, 255, 0.601);
+}

@@ -1,0 +1,98 @@
+.main-section{
+    padding-top: 140px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px;
+    background: url(../Assets/images/home-page.png);
+    background-repeat: no-repeat;
+    background-size:inherit;
+    background-position: right;
+    justify-content: space-around;
+}
+
+.main-section .title{
+    padding: 30px 0;
+    width: 814px;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170px; /* 100% */
+    letter-spacing: -2px;
+}
+
+
+.container{
+    width: auto;
+}
+
+.container .container-item{
+    display: flex;
+    font-size: 12px;
+    width: 329px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.101);
+    justify-content: space-around;
+    background-blend-mode: overlay;
+    align-items: center;
+    border-radius: 200px;
+}
+
+.container .container-item .main-button{
+    width: 46px;
+    height: 26px;
+    border-radius: 200px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > .main-button {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.container-description {
+    padding: 40px 10px;
+    width: 600px;
+}
+
+
+.home-image {
+    position: absolute;
+    width: 780px;
+    height: auto;
+    left: 50%;
+    top: -7%;
+}
+
+.wrapp-calories{
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.calories{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px;
+    font-size: 40px;
+    width: 166px;
+    height: fit-content;
+    box-sizing: border-box;
+    background-color:  rgba(255, 255, 255, 0.101);
+    border-radius:20px ;
+}
+
+.calories .number{
+    color: #FFE642;
+}
+
+.calories .number.-red{
+    color: #FB1351;
+}
+
+.calories .description{
+    font-size: 13px;
+}
