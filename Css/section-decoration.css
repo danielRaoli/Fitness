@@ -60,6 +60,8 @@
 .section-decoration .wrapper-trainer{
     display: grid;
     grid-template-columns: 377px 377px 500px;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 .section-decoration .card-trainer{
